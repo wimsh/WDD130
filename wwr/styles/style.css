@@ -1,15 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.logo{
+    width: 80px;
+         
+}
+#logo_link{
+    padding-top: 5px;
+
+}
+.home-title{
+    font-family: 'Lato', sans-serif, serif;
+    font-size: 2em;
+    color: blue;
+    margin-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
 nav a{
-text-align: center;
-color: blue;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    
 }
-.home-title{
-    color: blue;
+h2{
+    margin: 0px;
 }
 h4{
     color: blue;
@@ -22,21 +40,28 @@ h4{
 .button-box{
     text-align: center;
 }
-main section{
+main section img{
     text-align: center;
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
     background-color: burlywood;
     color: black;
+    
 }
 body {
     background-color: #fcfbfb; 
+    padding: 0px;
+    margin: 0px;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: grey;
     color: black;
+    border: 2px solid black;
+    margin-left: 0px;
+    text-align: left;
 }
 nav a:hover {
     background-color: black;
@@ -46,46 +71,86 @@ nav a:hover {
     background-color: grey;
     color: yellow;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: blueviolet;
     color:yellow
 }
 
+
+
 .msg{
-    background-color: goldenrod;
-    color: black;
-}
-footer{
-    background-color: grey;
+    background-color: #6f7364;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: orange;
 }
 .msg p{
-    color: blue;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 5px solid black;
+}
+.mountains{
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+    padding: 0px;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: grey;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    text-align: left;
 }
 footer h3{
     color: white;
 }
 footer a{
-    color: olivedrab;
+    color: white;
     text-decoration: none;
 }
 footer a:hover{
-    color: yellow;
+    color: black;
+    background-color: #6f7364;
     text-decoration: underline;
 }
-.logo{
-    width: 80px;
-    
+
+footer .social img{
+    padding-top: 15px;
+
 }
+
 #hero-img{
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px
 }
 footer p{
     font-size: 1.2em;
