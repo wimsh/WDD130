@@ -6,6 +6,8 @@
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 
 }
 .home-title{
@@ -14,18 +16,53 @@
     color: blue;
     margin-top: 10px;
 }
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: grey;
+    color: black;
+    margin-left: 0px;
+    text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+#hero-msg h4{
+    color: white;
+}
+#hero-msg h1, #hero-msg h4{
+    
+    text-align: center;
+}
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
-nav a{
-    color: white;
-    text-decoration: none;
-    padding: 35px;
-    
-}
+
 h2{
     margin: 0px;
 }
@@ -33,35 +70,60 @@ h4{
     color: blue;
 }
 
-#hero-msg h1, #hero-msg h4{
-    text-align: center;
-}
+
 
 .button-box{
     text-align: center;
 }
-main section img{
-    text-align: center;
-    box-sizing: border-box;
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row:2/3 ;
+   
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 
 #background {
+    grid-column: 1/11;
+    grid-row: 4/9;
     height: 725px;
     background-color: burlywood;
     color: black;
     
 }
+
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
+.msg {
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
+main section img{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #fcfbfb; 
     padding: 0px;
     margin: 0px;
 }
-header {
-    background-color: grey;
-    color: black;
-    margin-left: 0px;
-    text-align: left;
-}
+
 nav a:hover {
     background-color: black;
     color: white;
@@ -79,13 +141,12 @@ nav a:hover {
     color:yellow
 }
 
-
-
 .msg{
     background-color: #6f7364;
     color: white;
     line-height: 1.5em;
     padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2{
     color: orange;
@@ -99,32 +160,35 @@ nav a:hover {
     margin: 200px 0;
 }
 .card-img{
+    width: 100%;
     border: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .mountains{
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
     margin-top: 200px;
     margin-bottom: 200px;
     border: 2px solid black;
     padding: 0px;
     text-align: left;
+    box-shadow: 5px 5px 10px #6f7364;
 
 }
-
-
-
-
-
-
 
 
 footer{
     background-color: grey;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
-    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer h3{
     color: white;
@@ -136,7 +200,7 @@ footer a{
 footer a:hover{
     color: black;
     background-color: #6f7364;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer .social img{
@@ -153,5 +217,49 @@ footer .social img{
 }
 footer p{
     font-size: 1.2em;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+            
