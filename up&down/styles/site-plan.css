@@ -106,7 +106,8 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #2a9d8f;
+  color: black;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -124,11 +125,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: black;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #e9c46a;
+  background-color: #264653 ;
 }
 
 .sitemap {
