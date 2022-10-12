@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #f4a261;
   
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: Lato;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -27,7 +27,7 @@ Fonts are separated by a | */
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+/*  Look around below...but DON'T CHANGE ANYTHI! */
 
 body {
   max-width: 1200px;
@@ -64,7 +64,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: 'Lato', sans-serif, serif;
   color: var(--paragraph-color);
   padding: 1em;
   
