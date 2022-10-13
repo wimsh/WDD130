@@ -246,14 +246,31 @@ footer p{
     
    
 }
+.salmon{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    border: 2px solid black;
+    margin-bottom: -70px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    align-self: center;
+    font-family: "lato";
+    padding-bottom: 2px;
+    
+}
 .para{
     grid-column: 5/9;
     grid-row: 3/5;
     border: 3px solid black;
-    text-align: center;
+    justify-items: center;
+    align-self: center;
+    margin: 0px;
     background-color: gray;
-    padding: 20px;
+    padding: 25px;
     font-family: sans-serif;
+    text-align: justify;
+    
     
     
 }
@@ -283,14 +300,29 @@ footer p{
     
    
 }
+.canyon{
+    grid-column: 6/8;
+    grid-row: 1/2;
+    border: 2px solid black;
+    margin-bottom: -70px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    align-self: center;
+    font-family: "lato";
+    padding-bottom: 2px;
+}
 .para2{
     grid-column: 2/6;
     grid-row: 3/5;
     border: 3px solid black;
-    text-align: center;
+    text-align: justify;
     background-color: gray;
-    padding: 20px;
+    padding: 25px;
     font-family: sans-serif;
+    justify-items: center;
+    align-self: center;
+    margin: 0px;
     
 }
 h2{
@@ -314,6 +346,7 @@ h2{
     color: yellow;
     align-self: center;
     font-family: "lato";
+    border: 3px solid black;
     
     
 
@@ -329,7 +362,8 @@ h2{
     justify-self: center;
     background-color: blueviolet;
     margin-bottom: 80px;
-    
+    text-align: justify;
+    border: 3px solid black;
     
     
 }
