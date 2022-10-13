@@ -332,7 +332,7 @@ h2{
 }
 #main-para{
     display: grid;
-    grid-template-columns: 350px 910px;
+    grid-template-columns: 400px 860px;
     grid-template-rows: 70px 250px;
     
 }
