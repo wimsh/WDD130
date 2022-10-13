@@ -333,7 +333,7 @@ h2{
 #main-para{
     display: grid;
     grid-template-columns: 400px 860px;
-    grid-template-rows: 70px 240px;
+    grid-template-rows: 70px 280px;
     
 }
 .h2-river{
