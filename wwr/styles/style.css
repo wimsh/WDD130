@@ -332,8 +332,8 @@ h2{
 }
 #main-para{
     display: grid;
-    grid-template-columns: 300px 960px;
-    grid-template-rows: 70px 280px;
+    grid-template-columns: 350px 910px;
+    grid-template-rows: 70px 250px;
     
 }
 .h2-river{
