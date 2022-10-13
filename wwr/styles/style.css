@@ -250,7 +250,7 @@ footer p{
     grid-column: 3/5;
     grid-row: 1/2;
     border: 2px solid black;
-    margin-bottom: -67px;
+    margin-bottom: -64px;
     text-align: center;
     background-color: black;
     color: yellow;
@@ -304,7 +304,7 @@ footer p{
     grid-column: 6/8;
     grid-row: 1/2;
     border: 2px solid black;
-    margin-bottom: -67px;
+    margin-bottom: -64px;
     text-align: center;
     background-color: black;
     color: yellow;
@@ -333,7 +333,7 @@ h2{
 #main-para{
     display: grid;
     grid-template-columns: 400px 860px;
-    grid-template-rows: 70px 280px;
+    grid-template-rows: 70px 240px;
     
 }
 .h2-river{
