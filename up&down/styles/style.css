@@ -17,7 +17,7 @@ header {
 }
 .logo{
     width: 80px;
-    justify-items: left;
+   
     
 }
 nav {
@@ -33,15 +33,17 @@ nav a{
 
 #home-grid{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: 133px 133px 133px;
+    border: 2px solid black;
+    margin-top: 25px;
    
 }
 .home-img{
     
     grid-column: 1/4;
     grid-row: 1/2;
-    border: 2px solid black;
+   
    
 }
 .home-section{
@@ -58,21 +60,243 @@ nav a{
 
 .home-info{
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 40% 58%;
     grid-template-rows: 500px;
+    margin-top: 25px;
+    gap: 25px;
+   
 }
 .info-img{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1/2;
     border: 2px solid black;
     
+    
 }
 .info-img-size{
-    width: 743px;
+    width: 100%;
     height: 500px;
+    
 
 }
 .info-txt{
     grid-column: 1/2;
     grid-row: 1/2;
+    text-align: justify;
+    padding: 25px;
+    background-color: black;
+    color: yellow;
+    border: 2px solid black;
+   
+    
+}
+.learn{
+   
+    border-radius: 5px;
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    width: 150px;
+    text-align: center;
+       
+}
+.purpose{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px;
+    border: 2px solid black;
+    background-color: black;
+    color: yellow;
+    margin-top: 25px;
+    padding: 25px;
+}
+.vision-heading{
+    grid-row: 1/2;
+   }
+.vision{
+    grid-row: 2/3;
+}
+
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 25px;
+    column-gap: 100px;
+}
+.services-col1{
+    grid-column: 1/2;
+    border: 2px solid black;
+}
+.services-col2 {
+    grid-column: 2/3;
+    border: 2px solid black;
+}
+.services-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 100px;
+    column-gap: 200px;
+}
+.services-pic1{
+    grid-column: 1/2;
+    border: 2px solid black;
+}
+.services-pic2{
+    grid-column: 2/3;
+    border: 2px solid black;
+}
+
+
+.home-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 25px;
+    column-gap: 100px;
+}
+.pic-1{
+    grid-column: 1/2;
+    border: 2px solid black;
+}
+.pic-2{
+    grid-column: 2/3;
+    border: 2px solid black;
+}
+
+/* This is for solutions page*/
+.solutions-grid{
+    margin-top: 25px;
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 500px
+    
+}
+.solutions-col1{
+    grid-column: 1/6;
+    grid-row: 1/4;
+    background-color: blue;
+    color: white;
+    border: 2px solid black   
+}
+.solutions-col2{
+    background-color: yellow;
+    grid-column: 6/11;
+    grid-row: 1/4;
+    border: 2px solid black    
+}
+.solutions-pic{
+    grid-column: 5/9;
+    grid-row: 2/3;
+    
+}
+.solutions-headings{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: white;
+    text-align: left;
+}
+.solutions-para{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    color: white;
+    text-align: justify;
+}
+
+.solutions-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 330px;
+    margin-top: 25px;
+    height: 330px;
+}
+.solutions-card1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+}
+.solutions-card3{
+    grid-column: 2/3;
+}
+.solutions-card3{
+    grid-column: 3/4;
+}
+.solutions-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 500px;
+    height: 500px;
+}
+.solutions-bimag{
+    grid-column: 1/2;
+}
+.solutions-bg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: black;
+    
+}
+.solutions-bg-para{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: yellow;
+    padding: 40px;
+    text-align: justify;
+    
+
+}
+
+
+
+
+/* above is for solutions page*/
+footer{
+    background-color: yellow;
+    color: black;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', sans-serif, serif;
+    margin-top: 25px;
+    
+}
+footer h3{
+    color: black;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+    background-color: #6f7364;
+    text-decoration: none;
+}
+
+footer .social img{
+    padding-top: 15px;
+   
+
+}
+.footer-logo{
+    width: 80px;
+   
+    
+}
+
+
+
+
+.icon {
+    width: 80px;
+    padding-top: 10px
+}
+footer p{
+    font-size: 1.2em;
+    text-decoration: none;
 }
