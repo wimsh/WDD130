@@ -116,7 +116,10 @@ nav a{
 .vision{
     grid-row: 2/3;
 }
-
+.services-main{
+    border: 2px solid black;
+    margin-top: 25px;
+}
 
 .services-grid{
     display: grid;
@@ -128,6 +131,7 @@ nav a{
 .services-col1{
     grid-column: 1/2;
     border: 2px solid black;
+    
 }
 .services-col2 {
     grid-column: 2/3;
@@ -143,10 +147,14 @@ nav a{
 .services-pic1{
     grid-column: 1/2;
     border: 2px solid black;
+    justify-self: center;
+    align-self: center;
 }
 .services-pic2{
     grid-column: 2/3;
     border: 2px solid black;
+    justify-self: center;
+    align-self: center;
 }
 
 
