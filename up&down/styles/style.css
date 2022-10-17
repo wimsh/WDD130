@@ -93,23 +93,37 @@ nav a{
     color: yellow;
     border: 2px solid black;
     font-family: 'Lato', sans-serif, serif;
+    
 }
-.info-txt a{
+.learn a{
     text-decoration: none;
+    text-align: center;
+     
 }
+
 
 
 .learn{
-   
-    border-radius: 5px;
-    padding: 5px;
-    background-color: red;
-    color: yellow;
-    width: 150px;
-    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
     
-       
+    align-self: end;
+    justify-self: center;
+    
+           
 }
+
+.learn a h4{
+    background-color: red;
+    margin-top: -50px;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+
 .purpose{
     display: grid;
     grid-template-columns: 1fr;
