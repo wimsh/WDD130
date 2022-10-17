@@ -264,16 +264,16 @@ nav a{
     grid-column: 1/5;
     grid-row: 1/2;
     color: white;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: left;
     font-family: 'Lato', sans-serif, serif;
 }
 .solutions-para{
     grid-column: 1/5;
     grid-row: 2/3;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
     text-align: justify;
     font-family: 'Lato', sans-serif, serif;
