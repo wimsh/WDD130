@@ -93,18 +93,21 @@ nav a{
     color: yellow;
     border: 2px solid black;
     font-family: 'Lato', sans-serif, serif;
-    
-   
-    
 }
+.info-txt a{
+    text-decoration: none;
+}
+
+
 .learn{
    
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     background-color: red;
     color: yellow;
     width: 150px;
     text-align: center;
+    
        
 }
 .purpose{
