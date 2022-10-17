@@ -1,0 +1,23 @@
+
+
+
+
+.grid-css{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px auto;
+    column-gap: 25px;
+    border: 2px solid red;
+    justify-items: stretch;
+}
+.grid-1{
+    grid-column: 1/2;
+    
+    justify-self: center;
+    background-color: yellow;
+}
+.grid-2{
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: center;
+}
